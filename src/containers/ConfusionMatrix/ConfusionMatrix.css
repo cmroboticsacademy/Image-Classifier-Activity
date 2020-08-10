@@ -1,0 +1,126 @@
+.confusion-matrix {
+  width: 370px;
+  /* height: 420px; */
+  /* padding: 0; */
+}
+
+.confusion-matrix__quadrant__container {
+  /* padding-bottom: 0; */
+  height: 300px;
+  width: 300px;
+}
+
+.confusion-matrix__quadrant {
+  background-color: gray;
+  height: 150px;
+  width: 150px;
+
+  align-content: flex-start;
+  padding-bottom: 0;
+}
+
+.confusion-matrix__quadrant__thumb {
+  margin: 1px;
+  border: 1px solid black;
+  width: 45px;
+  height: 45px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+.confusion-matrix__quadrant__thumb:hover {
+  border-color: dodgerblue;
+  border-width: 4px;
+  width: 39px;
+  height: 39px;
+}
+
+.confusion-matrix__quadrant__thumb img {
+  width: 100%;
+  height: 100%;
+}
+
+.confusion-matrix__quadrant__label {
+  font-size: xx-small;
+  padding: 0;
+  margin: 0;
+}
+
+.confusion-matrix__top__axis {
+  /* background: yellow; */
+  height: 50px;
+  width: 300px;
+}
+
+.confusion-matrix__top__axis label {
+  width: 150px;
+}
+
+.confusion-matrix__left__axis {
+  /* background: yellow; */
+  height: 300px;
+  width: 50px;
+  /* position: relative; */
+  /* right: 8px; */
+}
+
+.confusion-matrix__left__axis label {
+  height: 150px;
+}
+
+.quadrant-label {
+  position: absolute;
+  height: 150px;
+  width: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  color: gray;
+  z-index: 5;
+}
+.confidence-tooltip-container {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.confidence_wrapper {
+  padding: 10px;
+  width: 300px;
+  justify-content: space-between;
+  align-items: center;
+}
+.confidence_tooltip {
+  width: 70px;
+  text-align: left;
+}
+.bar-chart-container {
+  width: 200px;
+  border: solid white 1px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+.p-bar
+{
+  height: 15px;
+  background-color: whitesmoke;
+}
+.confidence-header {
+  font-size: larger;
+}
+
+.percent-value {
+  width: 70px;
+  text-align: left;
+}
+.green {
+  background-color: lightgreen;
+}
+.class-box{
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  z-index: 20;
+  margin: 5px;
+}

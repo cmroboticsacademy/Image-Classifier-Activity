@@ -1,0 +1,46 @@
+.menu-select-btn {
+  background: white;
+  border: 1px solid dodgerblue;
+  border-radius: 5px;
+  color: dodgerblue;
+  font-size: 16px;
+  margin-left: 5px;
+}
+
+.menu-select-btn svg {
+  position: relative;
+  top: 1px;
+}
+
+.menu-select-btn:hover {
+  background: royalblue;
+  border-color: royalblue;
+  color: white;
+}
+
+.menu-select {
+  margin-top: -5px;
+  margin-left: -140px;
+  position: absolute;
+  background: white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 6px gray;
+  z-index: 10;
+}
+
+.menu-select ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu-select ul li {
+  padding: 10px;
+  color: dodgerblue;
+}
+
+.menu-select ul li:hover {
+  background: royalblue;
+  color: white;
+  border-radius: 5px;
+}

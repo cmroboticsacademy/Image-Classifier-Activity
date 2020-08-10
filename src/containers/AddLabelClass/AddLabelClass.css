@@ -1,0 +1,14 @@
+.add-class-btn {
+  cursor: pointer;
+  border: 1px dashed dodgerblue;
+  padding: 1em;
+  color: dodgerblue;
+  background: white;
+  box-shadow: none;
+}
+
+.add-class-btn:hover {
+  border: 1px dashed royalblue;
+  color: white;
+  background: royalblue;
+}

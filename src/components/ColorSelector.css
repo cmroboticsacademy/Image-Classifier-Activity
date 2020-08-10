@@ -1,0 +1,17 @@
+.color-selector {
+  cursor: pointer;
+}
+
+.color-selector__icon {
+  display: block;
+  width: 25px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+.color-selector__swatch {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: -5px;
+  z-index: 10;
+}

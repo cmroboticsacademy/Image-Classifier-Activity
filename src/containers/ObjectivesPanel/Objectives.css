@@ -1,0 +1,54 @@
+.objectives-panel {
+}
+
+.objectives-header {
+  
+}
+
+.objective-body {
+
+}
+
+.percent-number {
+
+}
+
+.info-box {
+  justify-content: space-evenly;
+  margin-left: 5px;
+  padding: 5px;
+}
+
+.goal-text {
+  padding-bottom: 5px;
+  border-bottom: 1px solid gray;
+}
+
+.batch-text {
+  padding-top: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.percent-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid gray;
+  width: 75px;
+  min-height: 50px;
+}
+
+.background-orange {
+  background-color: orange;
+}
+
+.background-green {
+  background-color: palegreen;
+}
+
+.background-whitesmoke {
+  background-color: whitesmoke;
+}

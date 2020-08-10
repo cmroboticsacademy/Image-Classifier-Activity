@@ -1,0 +1,23 @@
+.unity-labeler{
+  width: 310px;
+  /* height: 420px; */
+}
+
+.unity-labeler__controls {
+  padding: 10px;
+}
+
+.snapshot-btn {
+  width: 100px;
+}
+
+.unity-labeler__controls___select {
+  width: 170px;
+  padding-left: 10px;
+}
+
+.unity-labeler__controls___select label,
+.unity-labeler__controls___select select {
+  position: relative;
+  top: -3px;
+}

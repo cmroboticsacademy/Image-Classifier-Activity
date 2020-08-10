@@ -1,0 +1,75 @@
+{
+  "name": "@carnegie-mellon-robotics-academy/rah_image_classification_prototype",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "babel": {
+    "presets": [
+      "@babel/preset-react"
+    ]
+  },
+  "version": "0.4.5",
+  "dependencies": {
+    "@tensorflow-models/knn-classifier": "^1.2.2",
+    "@tensorflow-models/mobilenet": "^2.0.4",
+    "@tensorflow/tfjs": "^1.7.2",
+    "axios": "^0.19.2",
+    "lodash": "^4.17.15",
+    "querystring": "^0.2.0",
+    "react-color": "^2.18.0",
+    "react-icons": "^3.9.0",
+    "react-list": "^0.8.13",
+    "react-redux": "^7.2.0",
+    "react-scripts": "3.4.1",
+    "react-unity-webgl": "^7.1.10",
+    "redux": "^4.0.5",
+    "redux-thunk": "^2.3.0"
+  },
+  "watch": {
+    "publish:npm": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "js,jsx,css",
+      "delay": 500,
+      "runOnChangeOnly": false
+    }
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "publish:npm": "NODE_ENV=production npx babel src --out-dir dist --copy-files",
+    "watch": "npm-watch",
+    "deploy": "aws s3 sync build/ s3://rah-tensorflow-js-transfer-learning-demo",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/preset-react": "^7.9.4",
+    "npm-watch": "^0.6.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cmroboticsacademy/rah_image_classification_prototype.git"
+  },
+  "author": "Joshua Jarvis & Lee Carrozza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cmroboticsacademy/rah_image_classification_prototype/issues"
+  },
+  "homepage": "https://github.com/cmroboticsacademy/rah_image_classification_prototype#readme"
+}
