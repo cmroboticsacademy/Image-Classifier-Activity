@@ -1,8 +1,11 @@
-## Image Classification Prototype for Ready AIM Hire Project
+## Image Classification Activity
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Install
+
+In the root of the project...
+run `yarn install`
 
 This project uses a test app created with create-react-app to load the component. You will need to link the component to that project before running.
 
@@ -15,10 +18,11 @@ yarn link v1.22.4
 success Registered "@carnegie-mellon-robotics-academy/rah_image_classification_prototype".
 ```
 
-2. Copy the link from the previous step and link it to the test app
+2. Copy the link from the previous step. Install the test apps node moadules, then link it to the test app
 
 ```
 % cd test_app/
+% yarn install
 % yarn link "@carnegie-mellon-robotics-academy/rah_image_classification_prototype"
 ```
 
@@ -30,7 +34,7 @@ success Registered "@carnegie-mellon-robotics-academy/rah_image_classification_p
 
 ## Getting Started
 
-1. Run yarn watch in the parent directory.
+1. Run yarn watch in the root directory of the project.
 
 ```
 % yarn watch
@@ -49,22 +53,3 @@ In the project directory, you can run:
 ### `yarn watch`
 
 Running this script will trigger rebuilds when files in the src directory are changed.
-
-### `npm publish`
-
-1. Login
-
-Run the npm login command and populate your credentials.
-
-```
-% npm login --scope=@carnegie-mellon-robotics-academy
-```
-
-2. Publish
-
-```
-% npm publish
-```
-
-This publishes the package to the NPM package repository. You will need to login and set your organization scope to
-@carnegie-mellon-robotics-academy. See section about logging in and setting scope [here](https://docs.npmjs.com/using-npm/scope.html#associating-a-scope-with-a-registry) for more information.
